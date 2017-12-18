@@ -1,0 +1,13 @@
+Title:
+//td/a/text()
+
+Content:
+//td/font/text()
+
+newsURL:
+//tbody/tr[3]/td/text()
+
+
+http://channel.chinanews.com/cns/cl/gn-gcdt.shtml?pager=0
+
+scrapy crawl yourspider -o name.json -s FEED_EXPORT_ENCODING=utf-8
