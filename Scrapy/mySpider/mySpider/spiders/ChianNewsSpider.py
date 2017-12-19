@@ -28,9 +28,9 @@ class ChinaNewsSpider(scrapy.Spider):
             #newsList = {"Title:" : title, "Content:" : content, "newsURL:" : newsURL}
             item = ChinaNewsItem()
 
-            item["title"] = title.strip()
-            item["content"] = content.strip()
-            item["newsURL"] = newsURL.strip()
+            item["title"] = title.strip("\n\r").strip()
+            item["content"] = content.strip("\r\n").strip()
+            item["newsURL"] = newsURL.strip("\r\n").strip()
             
             newsItems.append(item)
 
