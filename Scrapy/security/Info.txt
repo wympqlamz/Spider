@@ -1,0 +1,24 @@
+Remote Exploits
+This exploit category includes exploits for remote services or applications, including client side exploits.
+
+Web Application Exploits
+This exploit category includes exploits for web applications.
+
+Local & Privilege Escalation Exploits
+This exploit category includes local exploits or privilege escalation exploits.
+
+Denial of Service & Proof of Concept Exploits
+This exploit category includes proof of concept code or code that results in a denial of service or application crash.
+
+Exploit Shellcode Archive
+This category includes archived shellcode.
+
+Archived Security Papers
+Archived security papers and articles in various languages.
+
+action	browseByCategory
+pg	5
+order_by	date_published
+order	DESC
+type	3
+https://www.exploit-db.com/wp-admin/admin-ajax.php

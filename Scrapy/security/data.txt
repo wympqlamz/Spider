@@ -1,0 +1,52 @@
+url = https://www.exploit-db.com/
+
+Remote Exploits
+//a[contains(text(), 'Remote Exploits')]/@href
+
+	
+
+
+Web Application Exploits
+//a[contains(text(), 'Web Application')]/@href
+
+Local & Privilege Escalation Exploits
+//a[contains(text(), 'Local &') and contains(text(), 'Privilege') and contains(text(), 'Escalation') and contains(text(), 'Exploits')]/@href
+
+Denial of Service & Proof of Concept Exploits
+//a[contains(text(), 'Denial of Service') and contains(text(), 'Proof')]/@href
+
+Exploit Shellcode Archive
+//a[contains(text(), 'Exploit Shellcode Archive')]/@href
+
+Archived Security Papers
+//a[contains(text(), 'Archived Security Papers')]/@href
+
+
+date
+./td[contains(@class, 'date')]/text()[0]
+
+download
+./td[contains(@class, 'dlink')]/a/@href[0]
+
+verification
+./td[contains(@class, 'verification')]/a/img/@title
+
+title
+./td[contains(@class, 'description')]//a/text()
+
+platform
+./td[contains(@class, 'platform')]//a/text()
+
+Author
+./td[contains(@class, 'author')]//a/text()
+
+https://www.exploit-db.com/wp-admin/admin-ajax.php
+
+
+//table[contains(@class, 'exploit_list')]/tbody/tr
+
+
+
+
+
+

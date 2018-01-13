@@ -1,0 +1,2 @@
+PHANTOMJS_HOME=/opt/phantomjs
+export PATH=$PATH:$PHANTOMJS_HOME/bin
